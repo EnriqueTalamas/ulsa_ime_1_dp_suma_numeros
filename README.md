@@ -114,7 +114,7 @@ _Si en el if y else puede tener más de un orden logico____
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
-- [si ] Llené todas las secciones (no quedan `_____`)
+- [si ] Llené todas las secciones (no quedan `_no_`)
 - [si ] Mi programa compila sin advertencias
 - [si ] Probé todos los casos de la tabla
 - [si ] Hice al menos 3 commits con mensajes claros
