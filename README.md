@@ -88,7 +88,7 @@ _Solo conserva el entero,el 2
 | # | ¿Qué falló o qué quise mejorar? | ¿Qué cambié? | ¿Funcionó? |
 |---|---|---|---|
 | 1 | que se repita y no tengas que ejecutarlo de nuevo| el return| si
-| 2 | _que la letra no me marca error|el codigo|no
+| 2 | _que la letra no me marca error|el codigo|si
 
 **Reto elegido (opcional):** __Hcer el codigo
 
