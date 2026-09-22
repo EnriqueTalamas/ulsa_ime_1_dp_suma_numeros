@@ -114,9 +114,9 @@ _Si en el if y else puede tener más de un orden logico____
 
 ## 13. Lista de verificación antes de entregar (Fase 5)
 
-- [ ] Llené todas las secciones (no quedan `_____`)
-- [ ] Mi programa compila sin advertencias
-- [ ] Probé todos los casos de la tabla
-- [ ] Hice al menos 3 commits con mensajes claros
-- [ ] Hice `git push` y verifiqué mi fork en GitHub
-- [ ] Entregué el enlace de mi fork en Classroom
+- [si ] Llené todas las secciones (no quedan `_____`)
+- [si ] Mi programa compila sin advertencias
+- [si ] Probé todos los casos de la tabla
+- [si ] Hice al menos 3 commits con mensajes claros
+- [si ] Hice `git push` y verifiqué mi fork en GitHub
+- [si ] Entregué el enlace de mi fork en Classroom
