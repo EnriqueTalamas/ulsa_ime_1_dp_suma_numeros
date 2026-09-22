@@ -1,24 +1,31 @@
-// ¿Recuerdas qué hace iostream?
 #include <iostream>
+using namespace std;
 
-// ¿por qué debe existir la función main()?
 int main() {
-    // 1. Constante: valor que no cambia durante la ejecución
     const int CANTIDAD = 5;
-
-    // 2. Variables (siempre inicializadas)
-    double suma   = 0.0;
+    int CONTADOR = 0;
+  //El programa solicita al usuario ingresar 5 números 
+    double suma = 0.0;
     double numero = 0.0;
+// El numero de entrada puede ser un número decimal, 
+    cout << "Suma de " << CANTIDAD << " numeros\n";
 
-    std::cout << "Suma de " << CANTIDAD << " numeros\n";
+    while (CONTADOR < CANTIDAD) {
+        cout << "Ingrese el numero " << CONTADOR + 1 << ": ";
+        cin >> numero;
+// Verifica si la entrada es válida
+        if (cin.fail()) {
+            cin.clear();              // limpia el estado de error
+            cin.ignore(1000, '\n');   // descarta la entrada incorrecta
+            cout << " El valor ingresado no es un numero valido.\n";
+        } else {
+            suma += numero;
+            // Incrementa el contador solo si la entrada es válida
+            CONTADOR++;
+        }
+    }
 
-    // 3. Ciclo: repetir CANTIDAD veces
-    //    TODO: elige un ciclo (for o while) y usa un contador
-    //    TODO: pedir el numero, leerlo y acumularlo en suma
-
-    // 4. Salida
-    //    TODO: mostrar el total
-
-    // ¿Qué significa return 0;?
+    cout << "La suma total es: " << suma << endl;
     return 0;
+    // Marca el final del programa con el 0
 }
